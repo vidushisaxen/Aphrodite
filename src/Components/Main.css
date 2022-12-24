@@ -1,0 +1,48 @@
+.topbrands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 6px;
+    width: 100px;
+    background-color: #FF6E31;
+    margin: 20px;
+}
+.line h1{
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bcards1{
+    display: flex;   
+}
+.bcards2{
+    display: flex;
+}
+.brandcard{
+    height: 50vh;
+    width: 40vw;
+    margin-left: 6.5%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.brandcard img{
+    height: 50vh;
+    width: 40vw;
+    border: 1px solid black;
+}
+.dcards{
+    display: flex;
+    width: 100vw;
+    
+}
+.dealcard{
+    height: 40vh;
+    width: 30vw;
+    margin: 20px;
+}
+.dealcard img{
+    height: 40vh;
+    width: 30vw;
+    border-radius: 20px;
+}
