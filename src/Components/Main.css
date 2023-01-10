@@ -3,46 +3,215 @@
     justify-content: center;
     align-items: center;
 }
-.line{
-    height: 6px;
-    width: 100px;
-    background-color: #FF6E31;
-    margin: 20px;
+.hero{
+    display: flex;
 }
-.line h1{
-    font-weight: 100;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.carousel1{
+    height: 350px;
+    width: 100vw;
+    margin-top: 5px;
+    background-color: #EEEEEE;
+
+}
+.hero img{
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 5%;
 }
 .bcards1{
-    display: flex;   
-}
-.bcards2{
-    display: flex;
+    display: flex;  
+    overflow-x: scroll; 
 }
 .brandcard{
     height: 50vh;
-    width: 40vw;
+    width: 20vw;
     margin-left: 6.5%;
     margin-bottom: 40px;
+    border-radius: 20px;
     margin-top: 20px;
+    background-color: #F6F6F6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.bcardtxt{
+    display: flex;
+}
+.brandcard p{
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bcardtxt button{
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-top: -10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    background-color: #47B5FF;
+    color: white;
 }
 .brandcard img{
-    height: 50vh;
-    width: 40vw;
-    border: 1px solid black;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 10px;
 }
 .dcards{
     display: flex;
-    width: 100vw;
+    flex-wrap: wrap;
+    /* width: 100vw; */
     
 }
 .dealcard{
-    height: 40vh;
-    width: 30vw;
-    margin: 20px;
+    height: 100px;
+    width: 200px;
+    margin-left: 13%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 2px solid grey;
 }
 .dealcard img{
-    height: 40vh;
-    width: 30vw;
-    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.deal{
+    height: 50vh;
+    width: 100vw;
+    background-color:#c8c6c663;
+    display: flex;
+    align-items: center;
+}
+.dealoftheday{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    margin-left: 25%;
+}
+.dealoftheday p1{
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.dealoftheday h2{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.dealoftheday p2{
+    margin-left: 20px;
+    text-decoration:line-through;
+    
+}
+.dealoftheday p3{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.dealoftheday p{
+    margin-left: 20px;
+}
+.dealoftheday button{
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+    margin-left:20px;
+
+}
+.deal img{
+    height: 250px;
+    width: 250px;
+}
+.trendingproducts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.trending{
+    background-color:#c8c6c663;
+    height: 300px;
+    width: 250px;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.tbox1{
+    height: 70%;
+}
+.tbox1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.tbox1 p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.tbox1 span{
+    margin-left: 0px;
+}
+.tbox1 span p{
+    margin-right: 70px;
+    margin-top: -10px;
+}
+.tbox1 button{
+    margin-top: -30px;
+    margin-right: 10px;
+    border: 2px solid #3C79F5;
+    background-color: white;
+    color: #3C79F5;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.latestnews{
+    display: flex;
+}
+.news{
+    background-color:white;
+    height: 350px;
+    width: 250px;
+    margin-left: 10%;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.nbox{
+    height: 70%;
+}
+.nbox img{
+    width: 100%;
+    height: 80%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.nbox p{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.nbox button{
+    border: 2px solid #3C79F5;
+    background-color: white;
+    color: #3C79F5;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+.nbox button:hover{
+    background-color: #3C79F5;
+}
+.nbox a{
+    text-decoration: none;
+    color: #3C79F5;
+}
+.nbox a:hover{
+    color: white;
 }
