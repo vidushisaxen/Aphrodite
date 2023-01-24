@@ -3,6 +3,7 @@ import './Main.css';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import {MdFavoriteBorder} from 'react-icons/md';
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
@@ -31,10 +32,10 @@ function Main() {
     </div>
     <div className='bcards1'>
     <div className="brandcard">
-    <img src='https://mir-s3-cdn-cf.behance.net/projects/404/7cf528153456343.Y3JvcCwyNjI4LDIwNTUsNjI0LDUyMA.jpg'></img>
+    <img src='https://i.pinimg.com/originals/cb/31/87/cb318789eecdbe77c9375cf78ba0f25e.jpg'></img>
     <p>Men's products</p>
     <div className="bcardtxt">
-    <button>View collections</button>
+    <Link to="/men" className='links'><button>View collections</button></Link>
     <MdFavoriteBorder/>
     </div>
     </div>
@@ -42,35 +43,35 @@ function Main() {
     <img src='https://i.pinimg.com/originals/b4/6e/b7/b46eb746f7664083877a42aa05062dfe.jpg'></img>
     <p>Womens' products</p>
     <div className="bcardtxt">
-    <button>View collections</button>
+    <Link to="/women" className='links'><button>View collections</button></Link>
     <MdFavoriteBorder/>
     </div>
     </div>
     
     <div className="brandcard">
     <img src='https://i.pinimg.com/originals/c7/28/58/c72858992482c70d5ec3a585eec352ed.png'></img>
-    <p>Elctronic gadets</p>
+    <p>Electronic gadets</p>
     <div className="bcardtxt">
-    <button>View collections</button>
+    <Link to='/electronic' className='links'><button>View collections</button></Link>
     <MdFavoriteBorder/>
     </div>
     </div>
     <div className="brandcard">
-    <img src='https://images.unsplash.com/3/www.madebyvadim.com.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWNjZXNzb3JpZXN8ZW58MHx8MHx8&w=1000&q=80'></img>
-    <p>Accessories</p>
+    <img src='https://i.ytimg.com/vi/eAhI2_UsMXY/maxresdefault.jpg'></img>
+    <p>Jewellery</p>
     <div className="bcardtxt">
-    <button>View collections</button>
+    <Link to='/accessories' className='links'><button>View collections</button></Link>
     <MdFavoriteBorder/>
     </div>
     </div>
-    <div className="brandcard">
+    {/* <div className="brandcard">
     <img src='https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop'></img>
     <p>Books</p>
     <div className="bcardtxt">
     <button>View collections</button>
     <MdFavoriteBorder/>
     </div>
-    </div>
+    </div> */}
     
     </div>
 

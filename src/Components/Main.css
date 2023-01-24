@@ -22,12 +22,12 @@
 }
 .bcards1{
     display: flex;  
-    overflow-x: scroll; 
+    /* overflow-x: scroll;  */
 }
 .brandcard{
     height: 50vh;
     width: 20vw;
-    margin-left: 6.5%;
+    margin-left: 4%;
     margin-bottom: 40px;
     border-radius: 20px;
     margin-top: 20px;
@@ -55,6 +55,12 @@
     border: none;
     background-color: #47B5FF;
     color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+.links{
+    z-index: 10;
+    cursor: pointer;
 }
 .brandcard img{
     height: 30vh;
