@@ -14,7 +14,7 @@ function Signup() {
         <input placeholder='Enter password'></input><br></br>
         <label>Confirm password</label><br></br>
         <input placeholder='Re-enter password'></input><br></br>
-        <button>Submit</button>
+        <button>Click to submit</button>
         
     </div>
     </>
