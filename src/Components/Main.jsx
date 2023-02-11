@@ -13,12 +13,13 @@ function Main() {
     <CarouselProvider
             naturalSlideWidth={150}
             naturalSlideHeight={100}
-            totalSlides={2}
+            totalSlides={3}
             isPlaying  = {true}
             > 	
   <Slider>
   <Slide index={0}><img src="https://i.pinimg.com/originals/7c/e0/b8/7ce0b8145c2a8150f4b971d18fc48d5c.jpg"></img></Slide>
   <Slide index={1}><img src="https://img.freepik.com/free-vector/new-collection-banner-template_1361-1325.jpg?w=2000"></img></Slide>
+  <Slide index={1}><img src="https://thumbs.dreamstime.com/b/flat-line-design-website-banner-e-commerce-modern-vector-illustration-web-marketing-print-material-68581557.jpg"></img></Slide>
 </Slider>
 
 </CarouselProvider>
