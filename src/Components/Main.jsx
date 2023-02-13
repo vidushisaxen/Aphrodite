@@ -24,9 +24,6 @@ function Main() {
 
 </CarouselProvider>
 </div>
-{/* <div className="carousel2"> 
-<img src='banner3.png'></img>
-</div> */}
 </div>
     <div className='topbrands'>
     <h1>Top picks</h1>
