@@ -13,14 +13,6 @@ import { Link } from "react-router-dom";
 
 
 function Navbar() {
-  // const [nav, setnav] = useState(true);
-
-
-
-
-// function myfun(){
-//    setnav(!nav);
-// }
   return (
     <>
     <div className='top'><p><marquee> Get 50% off on your first three orders! Order Now!</marquee></p></div>
