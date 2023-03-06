@@ -31,20 +31,6 @@ function Navbar() {
         <p1><MdFavoriteBorder size={27} className='ricon'/></p1>
         <p1><AiOutlineShoppingCart size={27} className='ricon'/></p1></span>   
     </div>
-    {/* <div className='her'>
-      {nav?<div className='invisible'></div>:
-    <div className="category">
-      <ul className='clist'>
-        <li>Fiction</li>
-        <li>Non-fiction</li>
-        <li>Novel</li>
-        <li>Fantasy</li>
-        <li>Erotic literarture</li>
-        <li>Mythology</li>
-        <li>Spirituality</li>
-      </ul>
-    </div>}
-    </div> */}
 
     </>
   )
