@@ -23,11 +23,6 @@ setnews(value.data.articles);
 
 
 
-
-// await fetch(req)
-//     .then(function(response) {
-//         console.log(response.json());
-//     })
   }
   return (
     <>
