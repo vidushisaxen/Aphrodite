@@ -20,7 +20,6 @@ function Navbar() {
     <Link to="/Home" className='link'><p1>Home</p1></Link>
     <Link to="/products" className='link'><p1>Products</p1></Link>
         <Link to="/About" className='link'><p1>About</p1></Link>
-        {/* <p1 onClick={myfun}>Genre</p1> */}
         <Link to="/All Books" className='link'><p1>Books</p1></Link>
         <Link to="/News" className='link'><p1>News</p1></Link> 
         <img src='Aphrodite.png'></img>
