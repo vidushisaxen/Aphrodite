@@ -4,7 +4,7 @@
             </div>
             <div className="box2">
                 <span>
-                    <h1>Ikigai :The Japanese Secret</h1>
+                    <h1>Ikigai : The Japanese Secret</h1>
                     <h2>₹547</h2>
                 </span>
                 <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore vel amet aut, similique alias distinctio esse illum earum odio tenetur nam, impedit velit perspiciatis tempore sint voluptatibus? Voluptates, sed rem.</p1>
@@ -19,7 +19,7 @@
                 <button> Add to cart</button>
                 <button>Read book</button>
             </div>
-            
+
             
             </div>
         </div>
