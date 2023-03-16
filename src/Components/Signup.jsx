@@ -11,7 +11,6 @@ function Signup() {
         <label>Email</label><br></br>
         <input placeholder='Enter email'></input><br></br>
         <label>Password</label><br></br>
-        <p>Show password</p>
         <input placeholder='Enter password'></input><br></br>
         <label>Confirm password</label><br></br>
         <input placeholder='Re-enter password'></input><br></br>
