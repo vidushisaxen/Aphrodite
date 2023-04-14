@@ -6,9 +6,7 @@ function Mencollection() {
   const [state, setstate] = useState([{}]);
   useEffect(() => {
    apicall()
-    
   }, [])
-  
   async function apicall(){
     const response= await axios.get("https://fakestoreapi.com/products/category/men's clothing");
     console.log(response.data);
