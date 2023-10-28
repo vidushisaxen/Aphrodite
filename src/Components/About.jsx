@@ -25,7 +25,8 @@ function About() {
   <br></br><br></br><br></br></p>
   
     </div>
-    <br></br><br></br>
+    <br></br>
+    <br></br>
     </>
   )
 }
