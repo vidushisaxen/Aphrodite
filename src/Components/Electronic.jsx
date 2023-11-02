@@ -16,6 +16,7 @@ function Electronic() {
     setstate(response.data);
   }
 
+  
   return (
     <>
     <div className="collections">
