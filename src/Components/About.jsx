@@ -10,7 +10,7 @@ function About() {
   <p>
     <b>Aphrodite</b>, greek goddess of beauty.<br></br><br></br>
     <p2>"We let you feel beautiful , Look Beautiful and Be Beautiful Inside and Out."<br></br>
-    <br></br>ADORE IT. OFFER IT . LIVE IT.</p2>
+    <br></br>ADORE IT. OFFER IT. LIVE IT.</p2>
     <br></br>
     <br></br>
     We appreciate the certainty, quality, and beauty with which all of you carry on with your life. We need to be your buddy as you go up against numerous symbols and find your own character and individual style.<br></br><br></br>
@@ -27,7 +27,7 @@ function About() {
     </div>
     <br></br>
     <br></br>
-    
+
     </>
   )
 }
